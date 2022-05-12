@@ -1,0 +1,68 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&family=Poppins:wght@700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* --- Import Components stylesheets --- */
+@import url("components/banner.css");
+@import url("components/buttons.css");
+@import url("components/cards.css");
+@import url("components/container.css");
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: 'Zen Kaku Gothic New', sans-serif;
+}
+
+h1, h3, h4 {
+  font-family: 'Zen Kaku Gothic New', sans-serif;
+}
+
+h2 {
+  font-family: 'Zen Kaku Gothic New', sans-serif;
+  color:#2506af;
+  text-align: center;
+}
+
+a {
+  text-decoration: none;
+}
+
+p {
+  margin: 0;
+  font-family: 'Zen Kaku Gothic New', sans-serif;
+  color: #2506af;
+}
+/* Custom design below! */
+
+.footer {
+  background: white;
+  background-size: cover;
+  border-color: black;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100px;
+  padding: 0px 50px;
+  color: rgba(0,0,0,0.3);
+}
+.footer-links {
+  display: flex;
+  align-items: center;
+  color: #2506af;
+}
+.footer-links a {
+  color: #2506af;
+  opacity: 0.50;
+  text-decoration: none;
+  font-size: 24px;
+  padding: 0px 10px;
+}
+.footer-links a:hover {
+  opacity: 1;
+}
+.footer .fa-heart {
+  color: #D23333;
+}
